@@ -61,7 +61,7 @@ You'll need to download the files in the `genes` and `annotation` directories. S
     - Now click `Blast` at the top again. Click `Enter unformatted or FASTA sequence` for your `Query` and paste the sequence you are searching for.
     - Click the drop-down for `Database` and find the name of the database you just created.
     - To change the blast parameters, click `More Options` at the bottom. You can change the `Max Evalue` and `Word Size` parameters 10 and 2, respectively for a less strict blast search. Then click `Search` at the bottom.
-    - Once it is done you can view an alignment of all the results together in a `Query Centric View` or view each result separately to see where they are in relation to your annotation (which can help determine if you have found the correct location of your exons).
+    - Once it is done you can view an alignment of all the results together in a `Query Centric View` or view each result separately in a `Hit Table` to see where they are in relation to your annotation (which can help determine if you have found the correct location of your exons).
 - Make sure that anytime you edit the annotation that you are putting intron/exon boundaries at canonical splice sites (i.e. introns should start with GT and end with AG). This can be another confirming factor that you are correctly annotating the gene (i.e. if you are trying to change an intron or exon, whether or not the reading frame works with any of the canonical splice sites can indicate if you're looking in the right spot). 
 
 
